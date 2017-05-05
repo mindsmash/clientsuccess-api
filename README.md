@@ -68,7 +68,7 @@ clientsuccess.contacts.read(clientId, contactId, params)
 ```
 #### Delete
 ```javascript
-`clientsuccess.contacts.delete(clientId, contactId, params)`
+clientsuccess.contacts.delete(clientId, contactId, params)
 ```
 
 ### Contact Custom Fields
