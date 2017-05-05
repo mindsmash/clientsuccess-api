@@ -31,52 +31,52 @@ clientsuccess.clients.list()
 
 ### Clients
 
-#### List
-#### Create
-#### Read
-#### Update
-#### Delete
+#### List `clientsuccess.clients.list(params)`
+#### Create `clientsuccess.clients.create(params)` 
+#### Read `clientsuccess.clients.read(clientId, params)`
+#### Update `clientsuccess.clients.update(clientId, params)`
+#### Delete `clientsuccess.clients.delete(clientId, params)`
 
 ### Contacts
 
-#### List
-#### Create
-#### Read
-#### Delete
+#### List `clientsuccess.contacts.list(clientId, params)`
+#### Create `clientsuccess.contacts.create(clientId, params)`
+#### Read `clientsuccess.contacts.read(clientId, contactId, params)`
+#### Delete `clientsuccess.contacts.delete(clientId, contactId, params)`
 
-### Contact Custom Fields
+### Contact Custom Fields `clientsuccess.contactCustomFields(params)` 
 
 ### Interactions
 
-#### List
-#### Create
-#### Update
-#### Delete
+#### List `clientsuccess.interactions.list(clientId, params)`
+#### Create `clientsuccess.interactions.create(clientId, params)`
+#### Update `clientsuccess.interactions.update(clientId, interactionId, params)`
+#### Delete `clientsuccess.interactions.delete(clientId, interactionId, params)`
 
 ### Todos
 
-#### List
-#### Create
-#### Update
-#### Delete
+#### List `clientsuccess.todos.list(clientId, params)`
+#### Create `clientsuccess.todos.create(clientId, params)`
+#### Update `clientsuccess.todos.read(clientId, todoId, params)`
+#### Delete `clientsuccess.todos.delete(clientId, todoId, params)`
 
 ### Pulses
 
-#### List
-#### Create
+#### List `clientsuccess.pulses.list(clientId, params)`
+#### Create `clientsuccess.pulses.create(clientId, params)`
 
-### Employees
+### Employees `clientsuccess.employees(params)`
 
 ### Products
 
-#### List
-#### Create
-#### Read
-#### Update
-#### Delete
+#### List `clientsuccess.products.list(params)`
+#### Create `clientsuccess.products.create(params)
+#### Read `clientsuccess.products.read(productId, params)`
+#### Update `clientsuccess.products.update(productId, params)
+#### Delete `clientsuccess.products.delete(productId, params)`
 
-### Client Types
+### Client Types `clientsuccess.clientTypes(params)`
 
-### Client Statuses
+### Client Statuses `clientsuccess.clientStatuses(params)`
 
-### Subscriptions
+### Subscriptions `clientsuccess.subscriptions(params)`
