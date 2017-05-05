@@ -1,7 +1,7 @@
 {
-  "name": "node-client-success",
+  "name": "clientsuccess-api",
   "version": "1.0.0",
-  "description": "A nodejs wrapper for client-success",
+  "description": "A third-party Javascript wrapper for ClientSuccess's REST API.",
   "main": "./lib",
   "scripts": {
     "lint": "scripts/lint.sh"
@@ -17,7 +17,7 @@
       "url": "http://opensource.org/licenses/MIT"
     }
   ],
-  "repository": "https://github.com/hbeckeri/client-success.git",
+  "repository": "https://github.com/torchlite/clientsuccess-api.git",
   "dependencies": {
     "axios": "0.16.1"
   },
