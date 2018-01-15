@@ -221,11 +221,17 @@ clientsuccess.subscriptions.create(params)
 #### Update
 
 ```javascript
-clientsuccess.subscriptions.update(clientId, params)
+clientsuccess.subscriptions.update(subscriptionId, params)
+```
+
+#### Renew
+
+```javascript
+clientsuccess.subscriptions.renew(subscriptionId, params)
 ```
 
 #### Delete
 
 ```javascript
-clientsuccess.subscriptions.delete(clientId, params)
+clientsuccess.subscriptions.delete(subscriptionId, params)
 ```
