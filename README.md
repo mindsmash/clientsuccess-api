@@ -1,27 +1,19 @@
 # Client Success
 
-A 3rd-party node.js library that implements the [ClientSuccess](https://www.clientsuccess.com/) API.
-
-[Documentation](http://docs.clientsuccessapi.apiary.io/#reference)
-
-## Installation
-
-```bash
-npm i clientsuccess-api
-```
+A 3rd-party node.js library that implements the [ClientSuccess](https://www.clientsuccess.com/) [API](http://docs.clientsuccessapi.apiary.io/#reference).
 
 ## Usage
 
 This library uses [axios](https://github.com/mzabriskie/axios) to send HTTP request.
 All methods will expose the underlying `config` parameter for `axios`.
 
-Begin by initializing with your username and password.
+Begin by initializing with your username and password:
 
 ```javascript
 let clientsuccess = require('clientsuccess-api').clientsuccess(username, password);
 ```
 
-Now you will be able to interact with the Client Success API. This API will handle refreshing your access token.
+Now you will be able to interact with the Client Success API. This library will handle refreshing your access token.
 Client Success [recommends](http://help.clientsuccess.com/advanced-features/does-clientsuccess-have-an-api) that you create a seperate user account named "API Access".
 
 ```javascript
