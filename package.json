@@ -1,6 +1,6 @@
 {
   "name": "clientsuccess-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A third-party JavaScript wrapper for the ClientSuccess REST API.",
   "main": "./lib",
   "scripts": {
